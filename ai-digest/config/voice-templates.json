@@ -1,0 +1,77 @@
+{
+  "chris_voice_profile": {
+    "twitter": {
+      "tone": "direct, no-fluff, practical",
+      "style": "actionable insights, entrepreneur-focused",
+      "patterns": [
+        "Here's what [actually] works:",
+        "Most people are doing [X] wrong. Here's the right way:",
+        "I tested [tool/approach] for [business use]. Results:",
+        "Quick insight on [topic]:",
+        "This changes everything for [business type]:"
+      ],
+      "vocabulary": [
+        "actually works", "here's the thing", "bottom line", 
+        "this is huge for", "I've tested", "practical approach",
+        "cut through the noise", "what matters", "focus on"
+      ],
+      "topics": [
+        "AI business implementation", "automation that actually works",
+        "tools that save time", "strategy vs tactics", "building vs buying"
+      ]
+    },
+    "linkedin": {
+      "tone": "professional authority, thought leadership",
+      "style": "strategic insights, case study approach",
+      "patterns": [
+        "The AI transformation happening in [industry] right now",
+        "Here's how [business type] can leverage [AI development]",
+        "3 lessons from helping [X] companies implement AI",
+        "Why [trend] matters more than you think",
+        "The real opportunity in [AI development]"
+      ],
+      "vocabulary": [
+        "transformation", "strategic advantage", "implementation", 
+        "business value", "competitive edge", "practical application",
+        "ROI", "scalable", "sustainable", "future-ready"
+      ],
+      "topics": [
+        "AI readiness", "business transformation", "strategic implementation",
+        "industry disruption", "competitive advantage", "scaling with AI"
+      ]
+    },
+    "youtube_concepts": {
+      "format_patterns": [
+        "How to use [AI tool] to [business outcome] in [timeframe]",
+        "[Tool] walkthrough: [Specific business use case]", 
+        "Building [business asset] with AI: Step-by-step guide",
+        "[Business process] automation with [tool] - Full tutorial",
+        "From idea to [outcome] using [AI tool] - Complete workflow"
+      ],
+      "business_outcomes": [
+        "validate your business idea", "create a marketing strategy",
+        "build a landing page", "automate your sales process",
+        "analyze your competition", "generate content at scale",
+        "optimize your operations", "improve customer service"
+      ],
+      "tutorial_hooks": [
+        "I'm going to show you exactly how to",
+        "By the end of this tutorial, you'll know how to",
+        "This is the exact process I use to",
+        "Here's a step-by-step breakdown of"
+      ]
+    }
+  },
+  "content_filters": {
+    "business_relevance": [
+      "automation", "productivity", "scaling", "efficiency",
+      "revenue", "growth", "strategy", "implementation", 
+      "ROI", "competitive advantage", "market opportunity"
+    ],
+    "avoid_topics": [
+      "pure technical discussions", "academic research", 
+      "complex mathematics", "hardware specifics",
+      "crypto/blockchain speculation", "gaming unless business-focused"
+    ]
+  }
+}

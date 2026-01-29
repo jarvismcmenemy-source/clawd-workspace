@@ -1,0 +1,299 @@
+{
+  "date": "2026-01-28",
+  "processed_at": "2026-01-28T21:33:24.491Z",
+  "accounts": [
+    {
+      "username": "gregisenberg",
+      "category": "business",
+      "priority": "high",
+      "relevant_posts": [
+        {
+          "id": "greg_1",
+          "text": "Billion dollar idea: AI-powered local business automation. Think: auto-responding to customer inquiries, scheduling, basic bookkeeping. Small businesses will pay $200/month for this. The market is HUGE.",
+          "timestamp": "2026-01-28T21:33:24.489Z",
+          "engagement": {
+            "likes": 2100,
+            "retweets": 580,
+            "replies": 156
+          },
+          "relevance_score": 1,
+          "categories": [
+            "business_automation",
+            "monetization",
+            "high_priority_business"
+          ],
+          "content_ideas": {
+            "twitter": [
+              {
+                "format": "Most people are doing [X] wrong. Here's the right way:",
+                "concept": "Correct approach to business automation",
+                "hook": "Most businesses are implementing AI automation wrong. Here's the right way:",
+                "engagement_potential": "high"
+              }
+            ],
+            "linkedin": [
+              {
+                "format": "3 lessons from helping [X] companies implement AI",
+                "concept": "Business lessons from AI implementation",
+                "title": "3 lessons from helping businesses implement AI",
+                "engagement_potential": "high"
+              }
+            ],
+            "youtube": []
+          }
+        },
+        {
+          "id": "greg_2",
+          "text": "I just helped a restaurant increase revenue 40% with simple AI automation: automated social media posts, smart ordering system, customer feedback analysis. Total setup cost: $500. Monthly savings: $2000.",
+          "timestamp": "2026-01-28T21:33:24.489Z",
+          "engagement": {
+            "likes": 1800,
+            "retweets": 420,
+            "replies": 89
+          },
+          "relevance_score": 2,
+          "categories": [
+            "business_automation",
+            "monetization",
+            "high_priority_business"
+          ],
+          "content_ideas": {
+            "twitter": [
+              {
+                "format": "Most people are doing [X] wrong. Here's the right way:",
+                "concept": "Correct approach to business automation",
+                "hook": "Most businesses are implementing AI automation wrong. Here's the right way:",
+                "engagement_potential": "high"
+              }
+            ],
+            "linkedin": [
+              {
+                "format": "3 lessons from helping [X] companies implement AI",
+                "concept": "Business lessons from AI implementation",
+                "title": "3 lessons from helping businesses implement AI",
+                "engagement_potential": "high"
+              }
+            ],
+            "youtube": []
+          }
+        }
+      ],
+      "content_opportunities": 4
+    },
+    {
+      "username": "karpathy",
+      "category": "technical",
+      "priority": "high",
+      "relevant_posts": [
+        {
+          "id": "karpathy_1",
+          "text": "Just released a new tutorial on building transformers from scratch. Key insight: most people overcomplicate the attention mechanism. Here's the minimal viable implementation that actually works in production.",
+          "timestamp": "2026-01-28T21:33:24.489Z",
+          "engagement": {
+            "likes": 1200,
+            "retweets": 340,
+            "replies": 89
+          },
+          "links": [
+            "https://example.com/transformer-tutorial"
+          ],
+          "mentions": [],
+          "relevance_score": 1,
+          "categories": [
+            "tool_updates",
+            "tutorial_opportunity"
+          ],
+          "content_ideas": {
+            "twitter": [
+              {
+                "format": "I tested [tool/approach] for [business use]. Results:",
+                "concept": "Test AI tool for business automation",
+                "hook": "I tested AI tool for automating [specific business process]. Here's what happened:",
+                "engagement_potential": "high"
+              }
+            ],
+            "linkedin": [],
+            "youtube": [
+              {
+                "format": "How to use [AI tool] to [business outcome] in [timeframe]",
+                "title": "How to use AI tool to validate your business idea in 15 minutes",
+                "difficulty": "beginner",
+                "business_value": "high"
+              },
+              {
+                "format": "How to use [AI tool] to [business outcome] in [timeframe]",
+                "title": "How to use AI tool to create a marketing strategy in 15 minutes",
+                "difficulty": "beginner",
+                "business_value": "high"
+              },
+              {
+                "format": "How to use [AI tool] to [business outcome] in [timeframe]",
+                "title": "How to use AI tool to build a landing page in 15 minutes",
+                "difficulty": "beginner",
+                "business_value": "high"
+              },
+              {
+                "format": "How to use [AI tool] to [business outcome] in [timeframe]",
+                "title": "How to use AI tool to automate your sales process in 15 minutes",
+                "difficulty": "beginner",
+                "business_value": "high"
+              },
+              {
+                "format": "How to use [AI tool] to [business outcome] in [timeframe]",
+                "title": "How to use AI tool to analyze your competition in 15 minutes",
+                "difficulty": "beginner",
+                "business_value": "high"
+              },
+              {
+                "format": "How to use [AI tool] to [business outcome] in [timeframe]",
+                "title": "How to use AI tool to generate content at scale in 15 minutes",
+                "difficulty": "beginner",
+                "business_value": "high"
+              },
+              {
+                "format": "How to use [AI tool] to [business outcome] in [timeframe]",
+                "title": "How to use AI tool to optimize your operations in 15 minutes",
+                "difficulty": "beginner",
+                "business_value": "high"
+              },
+              {
+                "format": "How to use [AI tool] to [business outcome] in [timeframe]",
+                "title": "How to use AI tool to improve customer service in 15 minutes",
+                "difficulty": "beginner",
+                "business_value": "high"
+              }
+            ]
+          }
+        },
+        {
+          "id": "karpathy_2",
+          "text": "The biggest mistake I see in AI implementations: businesses trying to automate everything at once. Start with ONE high-value process, nail it, then expand. ROI comes from focus, not breadth.",
+          "timestamp": "2026-01-28T21:33:24.489Z",
+          "engagement": {
+            "likes": 890,
+            "retweets": 200,
+            "replies": 45
+          },
+          "relevance_score": 2,
+          "categories": [
+            "monetization"
+          ],
+          "content_ideas": {
+            "twitter": [],
+            "linkedin": [
+              {
+                "format": "3 lessons from helping [X] companies implement AI",
+                "concept": "Business lessons from AI implementation",
+                "title": "3 lessons from helping businesses implement AI",
+                "engagement_potential": "high"
+              }
+            ],
+            "youtube": []
+          }
+        }
+      ],
+      "content_opportunities": 10
+    },
+    {
+      "username": "levelsio",
+      "category": "business",
+      "priority": "high",
+      "relevant_posts": [],
+      "content_opportunities": 0
+    }
+  ],
+  "content_ideas": {
+    "twitter": [
+      {
+        "format": "Most people are doing [X] wrong. Here's the right way:",
+        "concept": "Correct approach to business automation",
+        "hook": "Most businesses are implementing AI automation wrong. Here's the right way:",
+        "engagement_potential": "high"
+      },
+      {
+        "format": "Most people are doing [X] wrong. Here's the right way:",
+        "concept": "Correct approach to business automation",
+        "hook": "Most businesses are implementing AI automation wrong. Here's the right way:",
+        "engagement_potential": "high"
+      },
+      {
+        "format": "I tested [tool/approach] for [business use]. Results:",
+        "concept": "Test AI tool for business automation",
+        "hook": "I tested AI tool for automating [specific business process]. Here's what happened:",
+        "engagement_potential": "high"
+      }
+    ],
+    "linkedin": [
+      {
+        "format": "3 lessons from helping [X] companies implement AI",
+        "concept": "Business lessons from AI implementation",
+        "title": "3 lessons from helping businesses implement AI",
+        "engagement_potential": "high"
+      },
+      {
+        "format": "3 lessons from helping [X] companies implement AI",
+        "concept": "Business lessons from AI implementation",
+        "title": "3 lessons from helping businesses implement AI",
+        "engagement_potential": "high"
+      },
+      {
+        "format": "3 lessons from helping [X] companies implement AI",
+        "concept": "Business lessons from AI implementation",
+        "title": "3 lessons from helping businesses implement AI",
+        "engagement_potential": "high"
+      }
+    ],
+    "youtube": [
+      {
+        "format": "How to use [AI tool] to [business outcome] in [timeframe]",
+        "title": "How to use AI tool to validate your business idea in 15 minutes",
+        "difficulty": "beginner",
+        "business_value": "high"
+      },
+      {
+        "format": "How to use [AI tool] to [business outcome] in [timeframe]",
+        "title": "How to use AI tool to create a marketing strategy in 15 minutes",
+        "difficulty": "beginner",
+        "business_value": "high"
+      },
+      {
+        "format": "How to use [AI tool] to [business outcome] in [timeframe]",
+        "title": "How to use AI tool to build a landing page in 15 minutes",
+        "difficulty": "beginner",
+        "business_value": "high"
+      },
+      {
+        "format": "How to use [AI tool] to [business outcome] in [timeframe]",
+        "title": "How to use AI tool to automate your sales process in 15 minutes",
+        "difficulty": "beginner",
+        "business_value": "high"
+      },
+      {
+        "format": "How to use [AI tool] to [business outcome] in [timeframe]",
+        "title": "How to use AI tool to analyze your competition in 15 minutes",
+        "difficulty": "beginner",
+        "business_value": "high"
+      },
+      {
+        "format": "How to use [AI tool] to [business outcome] in [timeframe]",
+        "title": "How to use AI tool to generate content at scale in 15 minutes",
+        "difficulty": "beginner",
+        "business_value": "high"
+      },
+      {
+        "format": "How to use [AI tool] to [business outcome] in [timeframe]",
+        "title": "How to use AI tool to optimize your operations in 15 minutes",
+        "difficulty": "beginner",
+        "business_value": "high"
+      },
+      {
+        "format": "How to use [AI tool] to [business outcome] in [timeframe]",
+        "title": "How to use AI tool to improve customer service in 15 minutes",
+        "difficulty": "beginner",
+        "business_value": "high"
+      }
+    ]
+  },
+  "trending_topics": [],
+  "business_insights": []
+}

@@ -1,0 +1,88 @@
+{
+  "collection_date": "2026-01-28T21:33:24.490Z",
+  "accounts_processed": 3,
+  "total_posts": 5,
+  "accounts": [
+    {
+      "username": "karpathy",
+      "description": "ex-Tesla AI, teaches LLMs",
+      "category": "technical",
+      "priority": "high",
+      "posts": [
+        {
+          "id": "karpathy_1",
+          "text": "Just released a new tutorial on building transformers from scratch. Key insight: most people overcomplicate the attention mechanism. Here's the minimal viable implementation that actually works in production.",
+          "timestamp": "2026-01-28T21:33:24.489Z",
+          "engagement": {
+            "likes": 1200,
+            "retweets": 340,
+            "replies": 89
+          },
+          "links": [
+            "https://example.com/transformer-tutorial"
+          ],
+          "mentions": []
+        },
+        {
+          "id": "karpathy_2",
+          "text": "The biggest mistake I see in AI implementations: businesses trying to automate everything at once. Start with ONE high-value process, nail it, then expand. ROI comes from focus, not breadth.",
+          "timestamp": "2026-01-28T21:33:24.489Z",
+          "engagement": {
+            "likes": 890,
+            "retweets": 200,
+            "replies": 45
+          }
+        }
+      ],
+      "collected_at": "2026-01-28T21:33:24.489Z"
+    },
+    {
+      "username": "gregisenberg",
+      "description": "startup ideas daily",
+      "category": "business",
+      "priority": "high",
+      "posts": [
+        {
+          "id": "greg_1",
+          "text": "Billion dollar idea: AI-powered local business automation. Think: auto-responding to customer inquiries, scheduling, basic bookkeeping. Small businesses will pay $200/month for this. The market is HUGE.",
+          "timestamp": "2026-01-28T21:33:24.489Z",
+          "engagement": {
+            "likes": 2100,
+            "retweets": 580,
+            "replies": 156
+          }
+        },
+        {
+          "id": "greg_2",
+          "text": "I just helped a restaurant increase revenue 40% with simple AI automation: automated social media posts, smart ordering system, customer feedback analysis. Total setup cost: $500. Monthly savings: $2000.",
+          "timestamp": "2026-01-28T21:33:24.489Z",
+          "engagement": {
+            "likes": 1800,
+            "retweets": 420,
+            "replies": 89
+          }
+        }
+      ],
+      "collected_at": "2026-01-28T21:33:24.489Z"
+    },
+    {
+      "username": "levelsio",
+      "description": "ships games, no VC",
+      "category": "business",
+      "priority": "high",
+      "posts": [
+        {
+          "id": "levels_1",
+          "text": "Made $50K last month with an AI tool I built in 2 days using Claude and Cursor. The tool helps e-commerce stores write product descriptions automatically. Sometimes the simple ideas win.",
+          "timestamp": "2026-01-28T21:33:24.489Z",
+          "engagement": {
+            "likes": 3200,
+            "retweets": 890,
+            "replies": 234
+          }
+        }
+      ],
+      "collected_at": "2026-01-28T21:33:24.489Z"
+    }
+  ]
+}

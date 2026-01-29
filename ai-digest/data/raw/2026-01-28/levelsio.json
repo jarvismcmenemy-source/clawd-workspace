@@ -1,0 +1,19 @@
+{
+  "username": "levelsio",
+  "description": "ships games, no VC",
+  "category": "business",
+  "priority": "high",
+  "posts": [
+    {
+      "id": "levels_1",
+      "text": "Made $50K last month with an AI tool I built in 2 days using Claude and Cursor. The tool helps e-commerce stores write product descriptions automatically. Sometimes the simple ideas win.",
+      "timestamp": "2026-01-28T21:33:24.489Z",
+      "engagement": {
+        "likes": 3200,
+        "retweets": 890,
+        "replies": 234
+      }
+    }
+  ],
+  "collected_at": "2026-01-28T21:33:24.489Z"
+}

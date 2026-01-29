@@ -1,0 +1,29 @@
+{
+  "username": "gregisenberg",
+  "description": "startup ideas daily",
+  "category": "business",
+  "priority": "high",
+  "posts": [
+    {
+      "id": "greg_1",
+      "text": "Billion dollar idea: AI-powered local business automation. Think: auto-responding to customer inquiries, scheduling, basic bookkeeping. Small businesses will pay $200/month for this. The market is HUGE.",
+      "timestamp": "2026-01-28T21:33:24.489Z",
+      "engagement": {
+        "likes": 2100,
+        "retweets": 580,
+        "replies": 156
+      }
+    },
+    {
+      "id": "greg_2",
+      "text": "I just helped a restaurant increase revenue 40% with simple AI automation: automated social media posts, smart ordering system, customer feedback analysis. Total setup cost: $500. Monthly savings: $2000.",
+      "timestamp": "2026-01-28T21:33:24.489Z",
+      "engagement": {
+        "likes": 1800,
+        "retweets": 420,
+        "replies": 89
+      }
+    }
+  ],
+  "collected_at": "2026-01-28T21:33:24.489Z"
+}

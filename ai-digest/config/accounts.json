@@ -1,0 +1,112 @@
+{
+  "twitter_accounts": [
+    {
+      "username": "karpathy",
+      "description": "ex-Tesla AI, teaches LLMs",
+      "category": "technical",
+      "priority": "high"
+    },
+    {
+      "username": "steipete", 
+      "description": "built Clawdbot",
+      "category": "tools",
+      "priority": "high"
+    },
+    {
+      "username": "gregisenberg",
+      "description": "startup ideas daily", 
+      "category": "business",
+      "priority": "high"
+    },
+    {
+      "username": "rileybrown",
+      "description": "vibecode god",
+      "category": "development",
+      "priority": "medium"
+    },
+    {
+      "username": "corbin_braun",
+      "description": "cursor + Ares",
+      "category": "tools",
+      "priority": "high"
+    },
+    {
+      "username": "jackfriks",
+      "description": "solo apps, real numbers",
+      "category": "business",
+      "priority": "high"
+    },
+    {
+      "username": "EXM7777",
+      "description": "AI ops + systems",
+      "category": "operations", 
+      "priority": "medium"
+    },
+    {
+      "username": "eptwts",
+      "description": "prompts + algo hacks",
+      "category": "prompts",
+      "priority": "medium"
+    },
+    {
+      "username": "levelsio",
+      "description": "ships games, no VC",
+      "category": "business",
+      "priority": "high"
+    },
+    {
+      "username": "AlexFinn",
+      "description": "Claude Code maxi",
+      "category": "development",
+      "priority": "high"
+    },
+    {
+      "username": "BrettFromDJ",
+      "description": "design + AI",
+      "category": "design",
+      "priority": "medium"
+    },
+    {
+      "username": "godofprompt",
+      "description": "prompt guides", 
+      "category": "prompts",
+      "priority": "medium"
+    },
+    {
+      "username": "AmirMushich",
+      "description": "AI ads + video",
+      "category": "marketing",
+      "priority": "high"
+    },
+    {
+      "username": "gizakdag",
+      "description": "viral AI art styles",
+      "category": "creative",
+      "priority": "low"
+    },
+    {
+      "username": "MengTo",
+      "description": "landing pages via AI",
+      "category": "business",
+      "priority": "high"
+    },
+    {
+      "username": "KingBootoshi",
+      "description": "videocoding king",
+      "category": "development",
+      "priority": "medium"
+    },
+    {
+      "username": "meta_alchemist",
+      "description": "Claude vibing",
+      "category": "development",
+      "priority": "medium"
+    },
+    {
+      "username": "kloss_xyz",
+      "description": "systems architecture",
+      "category": "technical",
+      "priority": "medium"
+    }
+  ]
+}

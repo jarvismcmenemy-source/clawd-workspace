@@ -1,0 +1,33 @@
+{
+  "username": "karpathy",
+  "description": "ex-Tesla AI, teaches LLMs",
+  "category": "technical",
+  "priority": "high",
+  "posts": [
+    {
+      "id": "karpathy_1",
+      "text": "Just released a new tutorial on building transformers from scratch. Key insight: most people overcomplicate the attention mechanism. Here's the minimal viable implementation that actually works in production.",
+      "timestamp": "2026-01-28T21:33:24.489Z",
+      "engagement": {
+        "likes": 1200,
+        "retweets": 340,
+        "replies": 89
+      },
+      "links": [
+        "https://example.com/transformer-tutorial"
+      ],
+      "mentions": []
+    },
+    {
+      "id": "karpathy_2",
+      "text": "The biggest mistake I see in AI implementations: businesses trying to automate everything at once. Start with ONE high-value process, nail it, then expand. ROI comes from focus, not breadth.",
+      "timestamp": "2026-01-28T21:33:24.489Z",
+      "engagement": {
+        "likes": 890,
+        "retweets": 200,
+        "replies": 45
+      }
+    }
+  ],
+  "collected_at": "2026-01-28T21:33:24.489Z"
+}
