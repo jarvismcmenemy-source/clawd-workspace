@@ -39,13 +39,17 @@ if [[ ! -d "node_modules" ]]; then
     npm install
 fi
 
-echo "🚀 Running lead generation..."
+echo "🚀 Running lead generation (target: 50 successful)..."
 
-# Run the lead gen job
-npm run lead-gen
+# Use targeted lead gen that ensures 50 successful completions
+# Filters by status column (processes blank/pending/failed only)
+node targeted-lead-gen.mjs 50
+
+SUCCESS_COUNT=$?
 
 # Log completion
 echo "✅ Lead generation completed: $(date)"
+echo "📊 Target: 50 successful prospects based on status column filtering"
 
 # Create a summary for the daily log
 echo "## $(date '+%Y-%m-%d %H:%M') - VALO Lead Gen Completed ✅" >> ../../clawd/memory/$(date +%Y-%m-%d).md
