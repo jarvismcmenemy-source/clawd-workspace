@@ -12,6 +12,47 @@ Potential directions to validate:
 - B2B SaaS with AI core
 - Consumer AI application
 
+## Product Vision: Agentic Workflows Platform
+
+**Beyond Database Access → Active Intelligence**
+
+Fletta evolves from passive lookup tool to active agentic platform:
+- **Today:** Query vessels, companies, professionals
+- **Tomorrow:** AI agents that execute complex maritime workflows
+
+### Agentic Workflow Examples
+
+**1. Conference Planning Agent**
+- Input: Maritime conference (e.g., Nor-Shipping, Posidonia)
+- Output: Attendee list (confirmed + predicted) + personalized outreach playbook
+- Value: Maximize conference ROI, pre-schedule meetings
+
+**2. Port Call Agent**
+- Input: Vessel arriving at specific port
+- Output: Local agent recommendations, service providers, regulatory requirements
+- Value: Smoother port operations, cost optimization
+
+**3. Recruitment Intelligence Agent**
+- Input: Open maritime positions
+- Output: Candidate pipeline with contact info + engagement strategy
+- Value: Faster crewing, better retention
+
+**4. Competitive Intelligence Agent**
+- Input: Competitor fleet or company
+- Output: Fleet changes, new builds, hiring patterns, market moves
+- Value: Strategic advantage, market timing
+
+**5. Compliance Monitoring Agent**
+- Input: IMO regulations (2020, ballast water, emissions)
+- Output: Affected vessels in fleet + compliance roadmap
+- Value: Risk mitigation, regulatory readiness
+
+### Architecture Strategy
+- **Core remains:** Vessel/company/people database
+- **New layer:** Agentic workflow engine
+- **Plugin system:** Add workflows without breaking existing search
+- **Test in production:** Build alongside existing features
+
 ## Validation Approach
 1. Customer discovery first (don't build yet)
 2. Problem validation with 5-10 potential users

@@ -6,22 +6,29 @@
 
 ## P1 - Critical (Next 7 Days)
 
+### Agentic Workflow: Conference Planning MVP
+**Goal:** Build first agentic workflow - conference attendee finder + outreach playbook  
+**Deliverable:** 
+- Conference prediction engine (who's likely to attend)
+- Attendee list builder (confirmed + predicted)
+- Outreach playbook generator (personalized sequences)
+- UI integration in existing Lovable frontend
+**Impact:** Prove agentic workflow concept, generate revenue  
+**Effort:** Large
+
+### Agent Architecture Foundation
+**Goal:** Create plugin system for agentic workflows without breaking existing search  
+**Deliverable:** 
+- `/agents` route in frontend
+- Workflow engine backend structure
+- Agent configuration system
+**Impact:** Platform foundation for multiple agents  
+**Effort:** Medium
+
 ### API Documentation & Developer Experience
 **Goal:** Make BigQuery API easy to use for Lovable frontend  
 **Deliverable:** API docs + example queries + Postman collection  
 **Impact:** Frontend team can build without backend help  
-**Effort:** Small
-
-### Vessel Search Endpoint
-**Goal:** Enable vessel lookup by IMO, name, or MMSI  
-**Deliverable:** New API endpoint: `/vessels/search?q={query}`  
-**Impact:** Core product functionality for maritime intelligence  
-**Effort:** Medium
-
-### Data Quality Audit
-**Goal:** Understand coverage and gaps in vessel/company data  
-**Deliverable:** Data quality report + enrichment priorities  
-**Impact:** Know what's valuable vs what's missing  
 **Effort:** Small
 
 ## P2 - High (Next 30 Days)
