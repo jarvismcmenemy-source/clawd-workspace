@@ -6,10 +6,16 @@
 
 ## P1 - Critical (Next 7 Days)
 
+### ✅ Overnight Lead Generation (MIGRATED TO AUTOMATION)
+**Status:** Now runs via Jarvis nightly automation (11 PM slot)  
+**Was:** Running on Render (failing due to memory/timeouts)  
+**Now:** Integrated into compound engineering system  
+**Impact:** Reliable lead gen without Render constraints  
+
 ### Lead Pipeline CRM
-**Goal:** Track and nurture leads from AI Assessment through to client  
+**Goal:** Track and nurture leads from AI Assessment + overnight gen through to client  
 **Deliverable:** Simple dashboard + automated follow-up sequences  
-**Impact:** Convert assessment completions into paying clients  
+**Impact:** Convert assessment completions + cold outreach into paying clients  
 **Effort:** Medium
 
 ### Client Portal
