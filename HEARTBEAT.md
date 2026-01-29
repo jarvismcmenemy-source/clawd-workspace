@@ -2,6 +2,30 @@
 
 ## Active Tasks
 
+### Self-Check (runs every hour)
+Ask yourself:
+>what sounded right but went nowhere?
+>where I defaulted to consensus?  
+>what assumption I didn't pressure test?
+Log answers to memory/self-review.md
+Tag each entry with [confidence | uncertainty | speed | depth]
+
+then add this to your startup prompt: 
+on boot, read memory/self-review.md
+prioritize recent MISS entries
+when task context overlaps a MISS tag, force a counter-check before responding.
+
+the loop: heartbeat → question itself → log MISS/FIX → restart → read log → adjust
+
+self-review.md should look like this:
+[ date ] TAG: confidence 
+MISS: defaulted to consensus 
+FIX: challenge the obvious assumption first
+
+TAG: speed 
+MISS: added noise not signal 
+FIX: remove anything that doesn't move the task forward
+
 ### Compound Review (10:30 PM UK)
 If current hour is 22 (10 PM) UK time:
 - Review today's conversations and session history
