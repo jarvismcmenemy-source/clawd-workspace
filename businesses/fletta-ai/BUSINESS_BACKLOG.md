@@ -6,16 +6,22 @@
 
 ## P1 - Critical (Next 7 Days)
 
-### Validate Problem Space
-**Goal:** Confirm specific pain point and market demand  
-**Deliverable:** Customer discovery interviews (5-10) + problem validation doc  
-**Impact:** Avoid building something nobody wants  
-**Effort:** Small (but critical)
+### API Documentation & Developer Experience
+**Goal:** Make BigQuery API easy to use for Lovable frontend  
+**Deliverable:** API docs + example queries + Postman collection  
+**Impact:** Frontend team can build without backend help  
+**Effort:** Small
 
-### MVP Definition
-**Goal:** Define minimum viable product scope  
-**Deliverable:** Feature prioritization + technical architecture  
-**Impact:** Clear path to first version  
+### Vessel Search Endpoint
+**Goal:** Enable vessel lookup by IMO, name, or MMSI  
+**Deliverable:** New API endpoint: `/vessels/search?q={query}`  
+**Impact:** Core product functionality for maritime intelligence  
+**Effort:** Medium
+
+### Data Quality Audit
+**Goal:** Understand coverage and gaps in vessel/company data  
+**Deliverable:** Data quality report + enrichment priorities  
+**Impact:** Know what's valuable vs what's missing  
 **Effort:** Small
 
 ## P2 - High (Next 30 Days)
