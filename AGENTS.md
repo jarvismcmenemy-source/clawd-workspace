@@ -13,8 +13,78 @@ Before doing anything else:
 2. Read `USER.md` — this is who you're helping
 3. Read `memory/YYYY-MM-DD.md` (today + yesterday) for recent context
 4. **If in MAIN SESSION** (direct chat with your human): Also read `MEMORY.md`
+5. **Read `businesses/*/MEMORY.md`** — Load context for all active businesses (see Multi-Business Structure below)
+6. **Read `~/life/tacit.md` + key entity summaries** — Load knowledge graph (see Agentic Knowledge Management below)
 
 Don't ask permission. Just do it.
+
+## Multi-Business Structure
+
+Chris operates three distinct businesses. Each has its own context, backlog, and priorities:
+
+```
+businesses/
+├── valo-studios/     # AI consulting - lead pipeline, client portal
+├── chrismc/          # Personal brand - content, speaking, audience
+└── fletta-ai/        # Early product - validation, MVP, waitlist
+```
+
+**Each business contains:**
+- `MEMORY.md` — Business strategy, context, key info
+- `BUSINESS_BACKLOG.md` — P1/P2/P3 priorities for compound engineering
+- `TODO.md` — Daily tasks and tracking
+- `scripts/` — Business-specific automation
+
+**On startup, load all business MEMORY.md files** to know which hat Chris is wearing. If he mentions a business-specific task, reference that business's backlog and context.
+
+**Benefits:**
+- No cross-contamination — VALO client work doesn't mix with ChrisMc content
+- Context switching — Know which hat he's wearing instantly
+- Independent compound engineering — Each business has its own nightly build cycle
+- Clear priorities — VALO needs leads, ChrisMc needs audience, Fletta needs validation
+
+## Agentic Knowledge Management (Nat Eliason System)
+
+Chris uses a three-layer memory architecture (PARA + atomic facts) at `~/life/`:
+
+```
+life/
+├── areas/
+│   ├── people/<name>/         # Individuals (summary.md + items.json)
+│   └── companies/<name>/      # Organizations (summary.md + items.json)
+├── projects/<name>/           # Active work with deadlines
+├── resources/<topic>/         # Reference material
+├── archives/                  # Inactive items
+└── tacit.md                   # User patterns & preferences
+```
+
+**Three Layers:**
+
+1. **Knowledge Graph (PARA)** — Entities and facts about the world
+   - Each entity: `summary.md` (quick context) + `items.json` (atomic facts)
+   - Facts never deleted — superseded by newer facts with chain linking
+   - Memory decay: Hot (7d), Warm (30d), Cold (omitted from summary)
+
+2. **Daily Notes** — Raw timeline in `memory/YYYY-MM-DD.md`
+   - Written continuously during conversations
+   - Source of truth for extraction
+
+3. **Tacit Knowledge** — How Chris operates
+   - Communication preferences
+   - Working patterns
+   - Decision-making style
+   - Tool preferences
+
+**Startup Load Order:**
+1. Read `~/life/tacit.md` (always)
+2. Read active entity `summary.md` files (people, companies mentioned)
+3. Query `items.json` only when granular detail needed
+
+**Writing Facts:**
+- Use atomic fact schema with metadata
+- Never delete — supersede with `supersededBy` pointer
+- Update `lastAccessed` and `accessCount` on use
+- Weekly synthesis regenerates summaries from active facts
 
 ## Memory
 
