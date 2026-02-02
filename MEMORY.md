@@ -27,6 +27,10 @@ Scale to significant monthly run rate within 18-20 months for Florida relocation
 - Claude Code, Antigravity
 - Google Workspace (email, etc.)
 
----
+### System Notes
+- **gog (Google Workspace CLI)** not configured — opportunity for email/calendar integration
+- **Heartbeat system** operational — regular self-checks running
+- **Nightly Build** at 3 AM was missed on 2025-01-30 (first check was 4 AM) — may need "catch-up" logic
 
-*Updated: 2025-01-28*
+---
+*Updated: 2025-01-30*
