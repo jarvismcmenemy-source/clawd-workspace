@@ -93,6 +93,9 @@ Lead generation web app for VALO Studios - assesses business AI readiness across
 ### ✅ VALO Lead Pipeline System (2026-01-30)
 Professional CRM with kanban pipeline, lead scoring algorithm, and localStorage persistence. Features drag-and-drop stage management, dual view modes (pipeline + list), and VALO branding. **Deployed:** https://github.com/jarvismcmenemy-source/valo-lead-pipeline
 
+### ✅ Email Template Generator (2025-01-30)
+Single-page app for standardized VALO outreach with 5 templates (Cold Outreach, Follow-Up, Discovery Call, Proposal Follow-Up, Value Proposition), 3 tone modes (Professional/Friendly/Direct), variable substitution, and one-click copy. **Deployed:** https://github.com/jarvismcmenemy-source/valo-email-templates
+
 ---
 
 *This backlog drives the 11 PM automated implementation system. Items move from priority → implementation → PR → deployed feature, creating a continuous delivery pipeline for business growth.*
