@@ -96,6 +96,9 @@ Professional CRM with kanban pipeline, lead scoring algorithm, and localStorage 
 ### ✅ Email Template Generator (2025-01-30)
 Single-page app for standardized VALO outreach with 5 templates (Cold Outreach, Follow-Up, Discovery Call, Proposal Follow-Up, Value Proposition), 3 tone modes (Professional/Friendly/Direct), variable substitution, and one-click copy. **Deployed:** https://github.com/jarvismcmenemy-source/valo-email-templates
 
+### ✅ Content Idea Generator (2025-01-31)
+LinkedIn content idea generator with 12 ideas across 4 themes (AI Readiness, Value Proposition, Startup Culture, Entrepreneurship), 5 format types, filtering, and history. Built during Nightly Build. **Deployed:** https://github.com/jarvismcmenemy-source/valo-content-ideas
+
 ---
 
 *This backlog drives the 11 PM automated implementation system. Items move from priority → implementation → PR → deployed feature, creating a continuous delivery pipeline for business growth.*
